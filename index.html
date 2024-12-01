@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img class="logo" src="Images/logo.svg" alt="">
+            <div id="N_Buttons">
+                <button class="lang">
+                    <img src="Images/language.png" width="12px" alt="" style="margin-right: 6px;"> English ▾
+                </button>
+                <button class="get-started"> Sign In </button>
+            </div>
+        </nav>
+        <div class="header_Content">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            <form class="email">
+                <input type="email" placeholder="Email Address" required>
+                <button class="get-started" type="submit"> Get Started </button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <main>
+
+        <div class="Trending_Movies">
+            <h1 heading-container>Trending Now</h1>
+            <div class="container">
+                <button class="arrow-btn" id="leftArrow">&lt;</button>
+                <div class="movie_container" id="movieContainer">
+                    <div class="card">
+                        <img src="Images/Cards/Movie1.webp" alt="Movie 1">
+                        <p class="card_name">Movie - 1</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie2.webp" alt="Movie 2">
+                        <p class="card_name">Movie - 2</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie3.webp" alt="Movie 3">
+                        <p class="card_name">Movie - 3</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie4.webp" alt="Movie 4">
+                        <p class="card_name">Movie - 4</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie5.webp" alt="Movie 5">
+                        <p class="card_name">Movie - 5</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie6.webp" alt="Movie 6">
+                        <p class="card_name">Movie - 6</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie7.webp" alt="Movie 7">
+                        <p class="card_name">Movie - 7</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie8.webp" alt="Movie 8">
+                        <p class="card_name">Movie - 8</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie9.webp" alt="Movie 9">
+                        <p class="card_name">Movie - 9</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie10.webp" alt="Movie 10">
+                        <p class="card_name">Movie - 10</p>
+                    </div>
+                </div>
+                <button class="arrow-btn" id="rightArrow">></button>
+            </div>
+        </div>
+
+        <div class="Trending_Movies">
+            <h1>Only On NetFlix</h1>
+            <div class="container">
+                <button class="arrow-btn" id="leftArrowNetflix">&lt;</button>
+                <div class="movie_container" id="movieContainerNetflix">
+                    <div class="card">
+                        <img src="Images/Cards/Movie11.webp" alt="Movie 1">
+                        <p class="card_name">Movie - 1</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie12.webp" alt="Movie 2">
+                        <p class="card_name">Movie - 2</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie13.webp" alt="Movie 3">
+                        <p class="card_name">Movie - 3</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie14.webp" alt="Movie 4">
+                        <p class="card_name">Movie - 4</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie15.webp" alt="Movie 5">
+                        <p class="card_name">Movie - 5</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie16.webp" alt="Movie 6">
+                        <p class="card_name">Movie - 6</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie17.webp" alt="Movie 7">
+                        <p class="card_name">Movie - 7</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie18.webp" alt="Movie 8">
+                        <p class="card_name">Movie - 8</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie19.webp" alt="Movie 9">
+                        <p class="card_name">Movie - 9</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Cards/Movie20.webp" alt="Movie 10">
+                        <p class="card_name">Movie - 10</p>
+                    </div>
+                </div>
+                <button class="arrow-btn" id="rightArrowNetflix">></button>
+            </div>
+        </div>
+
+        <div class="heading-container">
+            <h1>More reasons to join</h1>
+        </div>
+
+        <section id="whyToJoin">
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <p>Stories tailored to your taste</p>
+                    <span><img src="Images/Icons/Img1.png" alt="" width="56px"></span>
+
+                </div>
+                <div class="reason-card">
+                    <p>Cancel or switch plans anytime</p>
+                    <span><img src="Images/Icons/Img2.png" alt="" width="56px"></span>
+                </div>
+                <div class="reason-card">
+                    <p>A place just for kids</p>
+                    <span><img src="Images/Icons/Img3.png" alt="" width="56px"></span>
+                </div>
+                <div class="reason-card">
+                    <p>For your phone, tablet, laptop, and TV</p>
+                    <span><img src="Images/Icons/Img4.png" alt="" width="56px"></span>
+                </div>
+            </div>
+        </section>
+
+        <div class="heading-container">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+        <section id="fAQ">
+            <div class="fAQ_Flex">
+                <div class="questionCard">
+                    <p>What is Netflix?</p>
+                </div>
+                <div class="questionCard">
+                    <p>How much does Netflix cost?</p>
+                </div>
+                <div class="questionCard">
+                    <p>Where can I watch?</p>
+                </div>
+                <div class="questionCard">
+                    <p>How do I cancel?</p>
+                </div>
+                <div class="questionCard">
+                    <p>What can I watch on Netflix?</p>
+                </div>
+                <div class="questionCard">
+                    <p>Is Netflix good for kids?</p>
+                </div>
+            </div>
+        </section>
+        <section id="signInAgain">
+            <div class="getStarted">
+                <div class="getButton ">
+                    <button class="get-started">
+                        <p>Get Started</p>
+                    </button>
+                </div>
+                <p>Create or restart your membership</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div id="fcall">Questions? Call 000-800-919-1694</div>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <a href="#">FAQ</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Speed Test</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Help Centre</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Account</a>
+                    <a href="#">Ways to Watch</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Only on Netflix</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Media Centre</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <div id="langBtn">
+            <button class="lang sides">
+                <img src="Images/language.png" width="12px" alt="" style="margin-right: 6px;"> English ▾
+            </button>
+        </div>
+        <h5 class="netIndia">NetFlix India</h5>
+       
+        
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
